@@ -1,8 +1,10 @@
+#include <fstream>
 #include <iostream>
-#include <nlohmann-json.hpp>
-using namespase std;
+#include "json.h"
 
-int main() {
-    
+using namespace std;
+
+int main(){
+    cout << json_read();
     return 0;
 }
